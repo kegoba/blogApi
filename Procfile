@@ -1,0 +1,1 @@
+web: gunicorn iruapp.wsgi --log-file -
