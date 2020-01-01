@@ -25,7 +25,7 @@ SECRET_KEY = '@s-dt7efayc&-z7#$9%o99qy523zp05-9nb&z)gc($2&%l(557'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'http://localhost:3000', 'iruapp.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'http://localhost:3000', 'iru.herokuapp.com']
 
 
 # Application definition
