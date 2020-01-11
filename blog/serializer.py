@@ -19,10 +19,13 @@ class Postserializer(serializers.ModelSerializer):
 
 
 class Commentserializer(serializers.ModelSerializer):
+
+    #post_id = serializers.PrimaryKeyRelatedField(many=True, read_only =True)
+
     class Meta:
         model = Comments
       
-        fields=["comment", "comment_by"]
+        fields=["id","comment", "comment_by","post_id"]
 
 class Shareserializer(serializers.ModelSerializer):
     class Meta:
